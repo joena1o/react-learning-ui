@@ -1,0 +1,500 @@
+/* Home/Landing Page Components */
+
+.navs{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.navs button{
+    margin: 0px 10px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 1px;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+}
+.navbar .brand{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.inner{
+    width: 70%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.navbar, .hero{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero{
+    height: 70vh;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.hero-info{
+    font-size: 25px;
+   font-weight: bold;
+   color: grey;
+    padding: 25px;
+}
+.hero-icon{
+    padding: 0px;
+     
+}
+
+.display{
+    width: 450px;
+    height: 450px;
+    border-radius: 100px;
+}
+
+.footer{
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    position: fixed;
+    color: white;
+    text-align: center;
+    background-color: rgb(163, 162, 162);
+}
+
+
+
+
+
+/* LOGIN STYLE AND COMPONENTS */
+
+.login-nav{
+
+    padding: 30px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.login-section{
+
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    margin: 15vh 0 10vh 0;
+    align-items: center;
+}
+
+.login-card{
+    width: 60%;
+    background-color: aliceblue;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.login-display{
+    background-color: rgb(121, 117, 117);
+    width: 50%;
+    color: white;
+    padding: 40px;
+    opacity: 0.6;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.login-form, .signup-form{
+    background-color: rgb(250, 250, 250);
+    width: 50%;
+    padding: 20px;
+}
+
+
+.form-control{
+    padding: 10px;
+}
+
+
+.form-group label{
+    padding: 5px 0px;
+    color: black;
+}
+
+.form-group button{
+    width: 100%;
+    margin-top: 0px;
+    border: 1px solid rgb(82, 81, 81);
+    font-weight: normal;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: transparent;
+    color: rgb(82, 81, 81);
+}
+
+
+
+/* DASHBOARD COMPONENTS */
+
+.dash-nav{
+    width: 100%;
+    height: 8vh;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    box-shadow: rgba(238, 239, 240, 0.1) 0px 2px 10px;
+
+    color: grey;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.dash-nav .navs{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display-pic{
+    width: 5vh;
+    height: 5vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.dash-nav .title{
+font-weight: bold;
+font-size: 23px;
+color: black;
+
+padding: 0px 10px;
+}
+
+.dash-nav .navs div{
+    padding: 0px 20px;
+}
+
+.side-nav{
+    width: 18vw;
+    height: 92vh;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: rgba(17, 17, 17, 0.904);
+    top: 8vh;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+    left: 0;
+    border-right: 1px solid rgb(241, 238, 238) ;
+    padding: 20px 20px;
+    /* background-color: rgb(241, 238, 238); */
+}
+.side-nav::-webkit-scrollbar{
+    display: none;
+}
+
+.side-nav-inner .nav{
+    padding: 10px 5px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: rgb(238, 234, 234);
+    font-size: 19px;
+}
+.side-header{
+    font-size: 19px;
+    padding: 40px 10px 0px 10px;
+    color: rgb(192, 187, 187);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.side-nav .nav span{
+    padding: 0px 6px;
+    font-size: 20px;
+    color: rgb(211, 211, 211);
+    text-align: center;
+}
+
+.dash-layout{
+    width: 82vw;
+    position: absolute;
+    overflow-y: scroll;
+    left: 18vw;
+    top: 8vh;
+    height: 92vh;
+    background-color: rgba(243, 241, 241, 0.582);
+
+
+
+}
+
+.dash-card{
+    padding: 15px 25px;
+    display: inline-flex;
+    margin: 4%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    width: 92%;
+    border-radius: 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.dash-card-content{
+    padding: 20px 25px;
+    display: inline-flex;
+    margin: 1%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+    width: 98%;
+    border-radius: 10px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.dash-icon{
+    font-size: 40px;
+    color: rgb(77, 75, 75);
+    padding: 10px 0px;
+}
+
+.dash-card-inner{
+    display: inline;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+
+.card-tt{
+    padding: 10px 0px;
+    font-size: 19px;
+    font-weight: normal;
+    color: black;
+}
+
+.dash-grid{
+    margin: 0px;
+}
+
+.dash-header{
+    padding: 10px 34px;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+.filter{
+    width: 100%;
+    display: inline-flex;
+    margin: 25px 10px;
+    justify-content: flex-start;
+}
+
+.filter-dropdown{
+    padding-left: 20px;
+}
+.filter-dropdown select, .filter-text{
+    padding: 3px;
+}
+
+
+
+.dash-title{
+    text-transform: uppercase;
+    color: rgb(71, 71, 71);
+    /* letter-spacing: px; */
+}
+
+.dash-subtitle{
+    color: grey;
+    padding: 5px 2px;
+    font-size: 19px;
+}
+
+.dash-grid div{
+    display: inline-flex;
+    justify-content: center;
+    
+    border-radius: 15px;
+}
+.dash-card footer{
+    padding: 20px;
+}
+
+/* Home Routes */
+
+
+.home-route{
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+
+.dash-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.nav.link:hover{
+
+    color: rgb(248, 190, 83);
+
+}
+
+
+/* Lecture Components */
+.lecture .inner button{
+    padding: 8px;
+    padding: 7px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: transparent;
+}
+
+
+@media only screen and (max-width:1100px){
+   
+    .side-nav .nav .label{
+        display: none;
+    }
+
+    .side-nav .nav span{
+        font-size: 25px;
+        padding: 5px;
+    }
+    .side-header span{
+        display: none;
+    }
+
+    .side-nav{
+        width: 10vw;
+        padding: 10px;
+    }
+
+    .dash-layout{
+        width: 90vw;
+        left: 10vw;
+    }
+    .side-nav-inner{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+
+        flex-direction: column;
+        font-size: 26px;
+        align-items: center;
+    }
+
+    .dash-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .dash-nav{
+        padding: 15px;
+    }
+    
+
+
+}
+
+@media only screen and (max-width:770px){
+
+    .dash-header{
+        padding: 20px 10px 10px 20px;
+        font-size: 18px;
+        font-weight: normal;
+        color: black;
+    }
+
+    .dash-nav .navs .navlink{
+        display: none;
+    }
+
+    .dash-nav{
+        padding: 15px;
+    }
+
+    .home-route{
+        width: 100%;
+        padding: 5px;
+    }
+
+    /* .dash-nav .title{
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0px 20px;
+        color: black;
+        
+        padding: 0px;
+        } */
+
+    .side-nav{
+        width: 15vw;
+
+    }
+    .dash-layout{
+        left: 15vw;
+        width: 85vw;
+    }
+
+    .dash-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+
+@media only screen and (max-width:550px){
+
+    .dash-grid{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media only screen and (max-height:850px){
+
+    .dash-nav{
+        height: 10vh;
+
+    }
+    .side-nav{
+        top: 10vh;
+        height: 90vh;
+
+    }
+
+    .dash-layout{
+        top: 10vh;
+        height: 90vh;
+
+    }
+
+}

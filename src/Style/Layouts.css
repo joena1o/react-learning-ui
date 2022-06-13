@@ -1,0 +1,13 @@
+.lecture .inner{
+    display: inflex-flex;
+    height: 92vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lecture{
+   
+    height: 92vh;
+    width: 100%;
+}
